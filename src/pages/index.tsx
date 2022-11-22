@@ -14,10 +14,7 @@ export default function Home() {
           <link rel="icon" href="/favicon.ico" />
         </Head> 
 
-        <Link href="/rooms">
-            <p>ルーム一覧</p>
-        </Link>
-
+        
         <main className='{styles.main}'>
 
           <h1 className="text-orange-500 text-3xl font-bold underline">
@@ -52,21 +49,26 @@ export default function Home() {
 
           </div>
         
-          <a
+          {/* <a
             href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
             target="_blank"
             rel="noopener noreferrer"
             className={styles.card}
           >
-            <h2 className='text-white'>
+            <h2 className='text-orange-400'>
               Deploy &rarr;
             </h2>
 
             <p>
               Instantly deploy your Next.js site to a public URL with Vercel.
             </p>
+
+
             
-          </a>
+          </a> */}
+          <Link href="/rooms">
+            <p>ルーム一覧</p>
+          </Link>
 
       </main>
 
